@@ -16,8 +16,8 @@ class Application
         else
             return[404, {'Content-Type' => 'text/html'}, ["Route not found"]]
         end
-        resp.finish
 
+        resp.finish
     end
 
 end
